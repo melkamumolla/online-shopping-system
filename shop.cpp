@@ -45,10 +45,10 @@ public:
         double price;
         int stock;
 
-        cout << "\nEnter correct product name: ";
+        cout << "\nEnter  product name: ";
         cin.ignore();
         getline(cin, name);
-        cout << "Enter correct product price: ";
+        cout << "Enter  product price: ";
         cin >> price;
         cout << "Enter stock quantity: ";
         cin >> stock;
